@@ -319,7 +319,7 @@ body.light-theme {
 }
 
 .home__education {
-  color: var(--text-color);
+  color: hsl(219deg 9.58% 85.2%);
   margin-bottom: 2.5rem;
   text-align: justify;
   padding: 10px;
