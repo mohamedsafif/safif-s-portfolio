@@ -969,6 +969,17 @@ body.light-theme {
     gap: 0.5rem;
   }
 }
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+  .home__scroll {
+    color: var(--first-color);
+    right: -1.5rem;
+    bottom: 35rem;
+    display: grid;
+    row-gap: 2.25rem;
+    justify-items: center;
+  }
+
+}
 @media screen and (min-width: 400px){
   .home__social{
     bottom: -4rem;
@@ -994,7 +1005,17 @@ body.light-theme {
     gap: 0.5rem;
   }
 }
+@media only screen and (min-width: 400px) and (max-width: 630px) {
+  .home__scroll {
+    color: var(--first-color);
+    right: -1.5rem;
+    bottom: 30rem;
+    display: grid;
+    row-gap: 2.25rem;
+    justify-items: center;
+  }
 
+}
 /* For medium devices */
 @media screen and (min-width: 630px) {
   .nav__menu {
